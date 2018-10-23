@@ -7,7 +7,8 @@
       },
       
        add: function(a){
-         
+         if( arguments.length===0) a=0;
+        result+=a;
          function sum(a){
               result+=a;
                   return sum;
@@ -18,6 +19,7 @@
          return sum;
       },
        subtract: function(a){
+        result-=a;
          function s(a){
           result-=a;
           return s;
@@ -28,6 +30,7 @@
        return s;
       },
        divide: function(a){
+        result/=a;
          function d(a){
           result/=a;
           return d;
@@ -38,6 +41,7 @@
        return d;
       },
       multiply: function(a){
+        result*=a;
         function m(a){
           result*=a;
           return m;
@@ -54,15 +58,25 @@
 }
 }
 
-//}//d
+
    var g = Calculator();
   console.log(g.getResult() );
   g.result=100;
   console.log(g.getResult() );
-  g.add(2)(11)(4);
+  g.add(5)()(4)(3);
   console.log(g.getResult() );
   g.multiply(6)(2);
   console.log(g.getResult() );
   g.divide(3);
   console.log(g.getResult() );
   
+ /* function  g()
+  {
+    return arguments;
+  }*/
+  var a = function()
+  {
+    return console.log(arguments.length);
+  };
+a
+g.add(5)(11)()(3)().arguments
