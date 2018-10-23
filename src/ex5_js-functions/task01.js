@@ -7,7 +7,7 @@
       },
       
        add: function(a){
-         if( arguments.length===0) a=0;
+         if( typeof a ==='undefined') return sum(0);
         result+=a;
          function sum(a){
               result+=a;
