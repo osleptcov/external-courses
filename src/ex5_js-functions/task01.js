@@ -7,8 +7,10 @@
       },
       
        add: function(a){
-         
+        if (typeof a==='number')
+        result+=a;
          function sum(a){
+           if (typeof a==='number')
               result+=a;
                   return sum;
          }
@@ -18,7 +20,10 @@
          return sum;
       },
        subtract: function(a){
+        if (typeof a==='number')
+        result-=a;
          function s(a){
+          if (typeof a==='number')
           result-=a;
           return s;
          }
@@ -28,7 +33,10 @@
        return s;
       },
        divide: function(a){
+        if (typeof a==='number')
+        result/=a;
          function d(a){
+          if (typeof a==='number')
           result/=a;
           return d;
          }
@@ -38,7 +46,10 @@
        return d;
       },
       multiply: function(a){
+        if (typeof a==='number')
+        result*=a;
         function m(a){
+          if (typeof a==='number')
           result*=a;
           return m;
         }
@@ -59,10 +70,10 @@
   console.log(g.getResult() );
   g.result=100;
   console.log(g.getResult() );
-  g.add(2)(11)(4);
+  g.add(2)()(1)()(4);
   console.log(g.getResult() );
   g.multiply(6)(2);
   console.log(g.getResult() );
-  g.divide(3);
+  g.divide(3)(2);
   console.log(g.getResult() );
   
