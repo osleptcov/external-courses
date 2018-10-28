@@ -1,0 +1,30 @@
+/*div {
+	 border: 1px solid red;
+    
+}*/
+/*
+div {
+	 outline: 2px solid #000;
+    
+}
+*/
+div {
+    background: #fc0;
+    padding:5px
+   border-radius: 10px;
+}
+ul { background: #FFF;
+      border-radius: 10px;}
+
+/*
+div {
+ 
+border-style: dotted
+}
+
+div {
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+
+ }
+ */
