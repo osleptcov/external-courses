@@ -1,0 +1,26 @@
+.border {
+	border: 1px solid red;
+}
+
+.outline {
+	outline: 2px solid #000;
+}
+
+.background_element {
+	background: #fc0;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.ul {
+	background: #FFF;
+	border-radius: 10px;
+}
+
+.doted {
+	border-style: dotted
+}
+
+.box {
+	box-shadow: 0 0 10px rgba(173, 7, 7, 0.767);
+}
