@@ -1,0 +1,11 @@
+.customer {
+          text-transform: capitalize;
+}
+
+.dollars:before {
+          content: '$ ';
+}
+
+.dollars:after {
+          content: '.00';
+}

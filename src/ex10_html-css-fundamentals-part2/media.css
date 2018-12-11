@@ -1,0 +1,145 @@
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+#menu {
+	background-image: url("menu.png");
+	left: 50px;
+	top: 21px;
+	width: 60px;
+	height: 55px;
+	margin-left: 40px;
+}
+
+#logo {
+	width: 165px;
+	height: 60px;
+	background-image: url(logo.png);
+	background-position: 190px 6px;
+	background-size: 210px 80px;
+	font-size: 51px;
+	color: #3687c4;
+	background-repeat: no-repeat;
+	padding-left: 240px;
+	padding-bottom: 15px;
+	font-family: "OpenSansRegular";
+}
+
+#search input {
+	position: relative;
+	display: block;
+	background: url("search.png");
+	background-position: 0 0;
+	text-indent: 2em;
+	background-repeat: no-repeat;
+	height: 25px;
+	border: none;
+	width: 240px;
+	font-family: "OpenSansLight";
+}
+
+#iback {
+	background-image: url("iback.png");
+	background-repeat: no-repeat;
+	height: 740px;
+	display: flex;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 915px;
+	font-family: "OpenSansLight";
+}
+
+.teaser {
+	display: flex;
+	color: #6d6e71;
+	align-items: center;
+}
+
+.teaser__pic {
+	display: block;
+	width: 110px;
+	height: 120px;
+	object-fit: cover;
+}
+
+.teaser__text {
+	margin-left: 30px;
+}
+
+.teaser__desc {
+	font-size: 16px;
+	font-family: "OpenSansLight";
+}
+
+.teaser__title {
+	font-size: 26px;
+	font-family: "OpenSansBold";
+}
+
+.lead__caption {
+	font-size: 50pt;
+	font-family: "OpenSansBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	/*text-align: center;*/
+	text-shadow: 0px 1px 8px rgba(1, 1, 1, 0.15);
+	line-height: 1.2;
+	text-transform: uppercase;
+	z-index: 50;
+	position: relative;
+	padding-left: 275px;
+	padding-top: 200px;
+	margin-bottom: 0px;
+}
+
+.lead__desc {
+	font-size: 30px;
+	font-family: "OpenSansLight";
+	color: white;
+	font-size: 40pt;
+	position: relative;
+	z-index: 5;
+	padding-left: 415px;
+}
+
+.lead__desc:before {
+	content: url('&.png');
+	position: absolute;
+	left: 255px;
+	top: -75px;
+	height: 90px;
+	width: 90px;
+}
+
+#background {
+	background-image: url("background.png");
+	width: 1335px;
+	/*height: 2000px;*/
+	font-family: "OpenSansReular";
+}
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("font/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("font/OpenSans-Light.ttf");
+}
+
+#about {
+	display: flex;
+	flex-direction: row;
+}

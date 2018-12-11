@@ -1,145 +1,139 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Task 01</title>
-      <meta charset="utf-8">
-      <style>
 
-               
-      </style>
-   </head>
-   <body>
+<head>
+    <title>Task 01</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
     <form action="http://httpbin.org/" method="POST">
         <fieldset>
-          <legend>Personal data</legend>
-          <p>
-              <label for="sureName">
+            <legend>Personal data</legend>
+            <p>
+                <label>
                     Surename
-              </label>
-              <input type="text" id="sureName">
-          </p>
-          <p>
-              <label for="firstName">
-                  First Name
-              </label>
-              <input type="text" id="firstName">
-          </p>
-          <p>
-                <label for="middleName">
+                </label>
+                <input type="text" id="sureName">
+            </p>
+            <p>
+                <label>
+                    First Name
+                </label>
+                <input type="text" id="firstName">
+            </p>
+            <p>
+                <label>
                     Middle Name
                 </label>
                 <input type="text" id="middleName">
-          </p>
-          <p>
-                    You are
-                    <input type="radio" name="gender" value="male" checked>
-                    <label for="gender">
-                            male
-                    </label>
-                    <input type="radio" name="gender" value="female" checked>
-                    <label for="gender">
-                            femalmale
-                    </label>
-          </p>
-          <p>
-                    <label for="age">
-                        Age
-                    </label>
-                    <input type="number" id="age" min="18" max="101">
-          </p>
-          <p>
-                    <label for="country">
-                        Country of residence
-                    </label>
-                    <select name="country" >
-                            <option value="Russia" selected>Russia</option>
-                            <option value="Belarus">Belarus</option>
-                            <option value="Ukraine">Ukraine</option>
-                            <option value="United kingdom">United kingdom</option>
-                    </select>
-          </p>
-          <p>
-                    City
-                    <input type="checkbox" name="city" value="Ryazan" checked>
-                    <label for="city">
-                            Ryazan
-                    </label>
-                    <input type="checkbox" name="city" value="Moscow" checked>
-                    <label for="city">
-                            Moscow
-                    </label>
-          </p>
-          <p>
-                    Photography
-                    <input type="file" name="file"> 
-          </p>
-          <hr>
-          <p>
-                <label for="title">
+            </p>
+            <p>
+                You are
+                <input type="radio" name="gender" value="male" checked>
+                <label>
+                    male
+                </label>
+                <input type="radio" name="gender" value="female" checked>
+                <label>
+                    femalmale
+                </label>
+            </p>
+            <p>
+                <label>
+                    Age
+                </label>
+                <input type="number" id="age" min="18" max="101">
+            </p>
+            <p>
+                <label>
+                    Country of residence
+                </label>
+                <select name="country">
+                    <option value="Russia" selected>Russia</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United kingdom">United kingdom</option>
+                </select>
+            </p>
+            <p>
+                City
+                <input type="checkbox" name="city" value="Ryazan" checked>
+                <label>
+                    Ryazan
+                </label>
+                <input type="checkbox" name="city" value="Moscow" checked>
+                <label>
+                    Moscow
+                </label>
+            </p>
+            <p>
+                Photography
+                <input type="file" name="file">
+            </p>
+            <hr>
+            <p>
+                <label>
                     Title
                 </label>
                 <select name="title" size="8">
                     <optgroup label="Techologies">
-                            <option value="Web Masrer" >Web Masrer</option>
-                            <option value="Database Administrator">Database Administrator</option>
-                            <option value="Computer-aided design">Computer-aided design</option>
+                        <option value="Web Masrer">Web Masrer</option>
+                        <option value="Database Administrator">Database Administrator</option>
+                        <option value="Computer-aided design">Computer-aided design</option>
                     </optgroup>
                     <optgroup label="Finance">
-                            <option value="Economic Planing" >Economic Planing</option>
-                            <option value="Management Accountng">Management Accountng</option>
-                            <option value="Budgeting andplanning">Budgeting andplanning</option>
-                    </optgroup>    
-                        
+                        <option value="Economic Planing">Economic Planing</option>
+                        <option value="Management Accountng">Management Accountng</option>
+                        <option value="Budgeting andplanning">Budgeting andplanning</option>
+                    </optgroup>
+
                 </select>
-          </p>
-          <p>
-                <label for="sallary">
+            </p>
+            <p>
+                <label>
                     Sallary
                 </label>
-                <input type="range" name="sallary" >
-          </p>
-          <p>
-                <textarea 
-                    placeholder="Tell us about yourself..."
-                    name="info" 
-                    rows="15"
-                    cols="50"
-                    required>
+                <input type="range" name="sallary">
+            </p>
+            <p>
+                <textarea placeholder="Tell us about yourself..." name="info" rows="15" cols="50" required>
                 </textarea>
-          </p>
+            </p>
         </fieldset>
         <fieldset>
             <legend>Contact information</legend>
             <p>
-                    <label for="site">
-                          Site
-                    </label>
-                    <input type="url" id="site">
+                <label>
+                    Site
+                </label>
+                <input type="url" id="site">
             </p>
             <p>
-                    <label for="email">
-                        Email
-                    </label>
-                    <input type="email" id="email">
+                <label>
+                    Email
+                </label>
+                <input type="email" id="email">
             </p>
             <p>
-                      <label for="phone">
-                          Phone
-                      </label>
-                      <input type="number" id="phone">
+                <label>
+                    Phone
+                </label>
+                <input type="number" id="phone">
             </p>
         </fieldset>
         <p>
-                <label for="password">
-                    Password
-                </label>
-                <input type="password" id="password" required>
+            <label>
+                Password
+            </label>
+            <input type="password" id="password" required>
         </p>
         <p>
-                <input type="submit" value="Отправить">
-                <input type="reset" value="Сбросить">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Сбросить">
         </p>
-      </form>
-      
-   </body>
+    </form>
+
+</body>
+
 </html>
