@@ -9,7 +9,7 @@ function Hangman(world){
 	return {
     guess :function(letter) {
         var lt = letter.toLowerCase();
-		var curenrtState = 0;
+				var curenrtState = 0;
 
         if(errorsCount !== 0){
             if(wordByLetters.indexOf(lt, curenrtState) === -1){
@@ -69,3 +69,4 @@ function Hangman(world){
 }
 
 var hangman = new Hangman('webpurple');
+hangman.guess('w');
