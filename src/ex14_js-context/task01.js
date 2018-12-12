@@ -35,6 +35,11 @@ function Calculator() {
     setState: function (a) {
       result = a;
       return this;
+    },
+    fetchData : function(callback){
+      callback.call(this);
+      this.setState(500); 
+      return this;
     }
   }
 }
