@@ -1,0 +1,25 @@
+.img{
+    background: url(https://media1.tenor.com/images/d612ee610793a42b00b3bbfd2ccaf068/tenor.gif?itemid=5121036) center no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+	margin:auto;
+}
+img{
+    width: 640px;
+	height: 480px;
+    -webkit-mask-image: url(batman.png);
+    -webkit-mask-size: 640px 480px;
+	position: absolute;
+	top: 300;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
